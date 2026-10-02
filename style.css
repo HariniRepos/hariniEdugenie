@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f6fb; color: #222; }
+header { background: #2cc2c5; color: #fff; text-align: center; padding: 1.2rem; }
+header h1 { margin: 0; }
+main { max-width: 720px; margin: 1.5rem auto; padding: 0 1rem; }
+.tabs { display: flex; gap: .5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.tab { padding: .5rem 1rem; border: 1px solid lab(83.35% -40.66 -10.47); background: #fff; border-radius: 6px; cursor: pointer; }
+.tab.active { background: #2cc2c5; color: #fff; }
+textarea { width: 100%; padding: .7rem; border-radius: 6px; border: 1px solid #ccc; box-sizing: border-box; }
+#submit { margin-top: .6rem; padding: .6rem 1.4rem; background: #2cc2c5; color: #fff; border: 0; border-radius: 6px; cursor: pointer; }
+#output { white-space: pre-wrap; background: #fff; padding: 1rem; border-radius: 6px; margin-top: 1rem; min-height: 80px; }
